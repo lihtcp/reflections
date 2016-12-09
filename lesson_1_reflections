@@ -1,0 +1,90 @@
+Question 1: How did spotting differences help?
+
+Using the terminal and diff to see differences
+between two files was really helpful for me.
+The steps in the video to show exactly what to
+type helped me to do the exercise because I have
+never used the terminal before.
+The diff tool was simple to understand after
+viewing the video and having the tool explained;
+- was what was removed (old file) and
++ was what was added (new file).
+By looking only at the lines with a -/+
+I was able to find the differences and mistakes
+fairly easily.
+
+Question 2: How could having easy access to the entire
+history of a file make you a more effecient programmer
+in the long term?
+
+It would be helpful to have the entire history so that
+you could easily go back to versions were something
+was working to see what the code was for that aspect.
+If you made changes that are no longer working, comparing the
+differences between the two codes will help you spot
+places that might be helpful to change. For example, if the code
+in the old version of something was working where you are now
+having problems, looking at the code in that previous version
+will give you the code from when it was working. Then you can take that
+code and update your new version, then test to see if it works.
+
+Question 3: What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git vs. having versions auto save?
+
+Pros:
+each commit can capture the size change that you prefer
+you can label each commit with exactly what you changed
+the size of the commit is meaningful based on your work
+auto-saving won't interrupt your work
+
+Cons:
+you may forget to manually save if you are focusing on coding
+learning what size works best may take practice
+you may end up with way more commits than might be necessary
+
+Question 4: Why do you think some version control systems, like Git,
+allow saving multiple files in one commit, while others, like 
+google docs, treat each file separately?
+
+I think that git allows for making multi-file commits because
+sometimes the files are linked together, so it would be most
+helpful to see the changes in each file over time. If the files
+are linked and you need to go back and check different versions,
+it is much easier if all versions are saved at the same intervals.
+That way, you can easily compare across versions to see where the 
+changes took place, and make any updates or fixes needed. *Look at
+the example in the previous video for a good explanation.
+
+Question 5: How can you use the commands git log and git diff to view
+the history of files?
+
+git log:
+you can use this to look at the commit id, author, date, and message
+if you use git log --stat to have the summary of +/- in each commit
+type q to exit out of the log
+
+git diff:
+shows you the exact changes line by line to the different commits
+you must type git diff (copy commit #1) (copy commit #2) to see output
+type q to exit out (if needed?)
+
+Question 6: How might using version control make you more
+confident to make changes that could break something?
+
+It would help you because you are now able to go back to
+previous versions to see where the bug or the error was
+introduced. Then you can compare the two versions (before and
+after the error was introducted) to see what the problem might be.
+
+Question 7: Now that you have your workspace set up, what do you
+want to try using git for?
+Passing my R class.
+
+
+
+
+
+
+
+
+
