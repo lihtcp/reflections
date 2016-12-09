@@ -35,3 +35,16 @@ useful so that you don’t have to do as many merges, if you have the most updat
 version you will be adding changes to a file that already has the other changes.
 If not you would have to add your changes to a file that has them, and merging
 could take more effort.
+
+Question 5: How would you collaborate without using Git or Github?
+What would be easier, and what would be harder?
+
+I usually use google docs to collaborate. It shows the changes that
+everyone makes, but it isn’t the same as merging together changes.
+It does update in real time, so more than one person can be working at
+once without having to merge the files later. However, you can’t do work
+remotely unless you want to then upload a word document and then open it.
+This file would then need to be updated to incorporate changes from the
+other file. It is also possible to have comments in google docs which is
+somewhat similar to the pull requests. You can have a comment suggesting
+a change, and then once someone approves it, you can go ahead and make it.
