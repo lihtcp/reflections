@@ -25,3 +25,13 @@ and clones it into your local repository. This is useful it you want to use
 someone else’s repository on your local computer. Finally, a fork is when you
 copy someone’s remote repository into your remote repository. You can then
 use that file locally by cloning it into your local repository.
+
+Question 4: What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+It is helpful to have this because if you need to revert back to a previous
+commit you can use what you have locally rather than going online. It is also
+useful so that you don’t have to do as many merges, if you have the most updated
+version you will be adding changes to a file that already has the other changes.
+If not you would have to add your changes to a file that has them, and merging
+could take more effort.
