@@ -1,0 +1,9 @@
+Lesson 2 reflections
+
+Question 1: What happens when you initialize a repository?
+Why do you need it?
+
+When you initialize a repository you can start tracking the
+changes in a group of files. The commits for these files
+will be linked together, so that even if only one file
+is updated you will be able to have all the files linked.
