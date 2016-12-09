@@ -14,3 +14,14 @@ be more helpful to only pull the changes that others have made when you are
 ready to incorporate them into what you are working on. It also makes sense
 to manually pull so that you pull at logical points rather than mid-change
  or before something is working correctly.
+
+Question 3: Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+Branches are only in local repositories where you are making commits. You
+can make a branch so that the master commit isn’t affected by changes you
+want to try out elsewhere. A clone takes a repository from somewhere else
+and clones it into your local repository. This is useful it you want to use
+someone else’s repository on your local computer. Finally, a fork is when you
+copy someone’s remote repository into your remote repository. You can then
+use that file locally by cloning it into your local repository.
