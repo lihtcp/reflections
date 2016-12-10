@@ -48,3 +48,11 @@ This file would then need to be updated to incorporate changes from the
 other file. It is also possible to have comments in google docs which is
 somewhat similar to the pull requests. You can have a comment suggesting
 a change, and then once someone approves it, you can go ahead and make it.
+
+Question 6: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would make changes in a separate branch whenever I was trying something
+completely new that I wasn’t sure if it was going to work or not. I would
+rather have that side project in another branch rather than keep it in
+the master branch. The master branch I would keep so that I knew I had 
+at least 1 version of the code working.
